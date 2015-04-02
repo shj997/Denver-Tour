@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E59F1AE11ACE0450000A1D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59F1AE01ACE0450000A1D30 /* AppDelegate.swift */; };
+		E59F1AE31ACE0450000A1D30 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59F1AE21ACE0450000A1D30 /* MasterViewController.swift */; };
+		E59F1AE51ACE0450000A1D30 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59F1AE41ACE0450000A1D30 /* DetailViewController.swift */; };
+		E59F1AE81ACE0450000A1D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59F1AE61ACE0450000A1D30 /* Main.storyboard */; };
+		E59F1AEA1ACE0450000A1D30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59F1AE91ACE0450000A1D30 /* Images.xcassets */; };
+		E59F1AED1ACE0450000A1D30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E59F1AEB1ACE0450000A1D30 /* LaunchScreen.xib */; };
+		E59F1AF91ACE0450000A1D30 /* Denver_TourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59F1AF81ACE0450000A1D30 /* Denver_TourTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E59F1AF31ACE0450000A1D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E59F1AD31ACE0450000A1D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E59F1ADA1ACE0450000A1D30;
+			remoteInfo = "Denver Tour";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E59F1ADB1ACE0450000A1D30 /* Denver Tour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Denver Tour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59F1ADF1ACE0450000A1D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59F1AE01ACE0450000A1D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E59F1AE21ACE0450000A1D30 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		E59F1AE41ACE0450000A1D30 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E59F1AE71ACE0450000A1D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E59F1AE91ACE0450000A1D30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E59F1AEC1ACE0450000A1D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E59F1AF21ACE0450000A1D30 /* Denver TourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Denver TourTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59F1AF71ACE0450000A1D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59F1AF81ACE0450000A1D30 /* Denver_TourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Denver_TourTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E59F1AD81ACE0450000A1D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59F1AEF1ACE0450000A1D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E59F1AD21ACE0450000A1D30 = {
+			isa = PBXGroup;
+			children = (
+				E59F1ADD1ACE0450000A1D30 /* Denver Tour */,
+				E59F1AF51ACE0450000A1D30 /* Denver TourTests */,
+				E59F1ADC1ACE0450000A1D30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E59F1ADC1ACE0450000A1D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E59F1ADB1ACE0450000A1D30 /* Denver Tour.app */,
+				E59F1AF21ACE0450000A1D30 /* Denver TourTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E59F1ADD1ACE0450000A1D30 /* Denver Tour */ = {
+			isa = PBXGroup;
+			children = (
+				E59F1AE01ACE0450000A1D30 /* AppDelegate.swift */,
+				E59F1AE21ACE0450000A1D30 /* MasterViewController.swift */,
+				E59F1AE41ACE0450000A1D30 /* DetailViewController.swift */,
+				E59F1AE61ACE0450000A1D30 /* Main.storyboard */,
+				E59F1AE91ACE0450000A1D30 /* Images.xcassets */,
+				E59F1AEB1ACE0450000A1D30 /* LaunchScreen.xib */,
+				E59F1ADE1ACE0450000A1D30 /* Supporting Files */,
+			);
+			path = "Denver Tour";
+			sourceTree = "<group>";
+		};
+		E59F1ADE1ACE0450000A1D30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E59F1ADF1ACE0450000A1D30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E59F1AF51ACE0450000A1D30 /* Denver TourTests */ = {
+			isa = PBXGroup;
+			children = (
+				E59F1AF81ACE0450000A1D30 /* Denver_TourTests.swift */,
+				E59F1AF61ACE0450000A1D30 /* Supporting Files */,
+			);
+			path = "Denver TourTests";
+			sourceTree = "<group>";
+		};
+		E59F1AF61ACE0450000A1D30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E59F1AF71ACE0450000A1D30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E59F1ADA1ACE0450000A1D30 /* Denver Tour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59F1AFC1ACE0450000A1D30 /* Build configuration list for PBXNativeTarget "Denver Tour" */;
+			buildPhases = (
+				E59F1AD71ACE0450000A1D30 /* Sources */,
+				E59F1AD81ACE0450000A1D30 /* Frameworks */,
+				E59F1AD91ACE0450000A1D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Denver Tour";
+			productName = "Denver Tour";
+			productReference = E59F1ADB1ACE0450000A1D30 /* Denver Tour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E59F1AF11ACE0450000A1D30 /* Denver TourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59F1AFF1ACE0450000A1D30 /* Build configuration list for PBXNativeTarget "Denver TourTests" */;
+			buildPhases = (
+				E59F1AEE1ACE0450000A1D30 /* Sources */,
+				E59F1AEF1ACE0450000A1D30 /* Frameworks */,
+				E59F1AF01ACE0450000A1D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E59F1AF41ACE0450000A1D30 /* PBXTargetDependency */,
+			);
+			name = "Denver TourTests";
+			productName = "Denver TourTests";
+			productReference = E59F1AF21ACE0450000A1D30 /* Denver TourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E59F1AD31ACE0450000A1D30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Molly;
+				TargetAttributes = {
+					E59F1ADA1ACE0450000A1D30 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E59F1AF11ACE0450000A1D30 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = E59F1ADA1ACE0450000A1D30;
+					};
+				};
+			};
+			buildConfigurationList = E59F1AD61ACE0450000A1D30 /* Build configuration list for PBXProject "Denver Tour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E59F1AD21ACE0450000A1D30;
+			productRefGroup = E59F1ADC1ACE0450000A1D30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E59F1ADA1ACE0450000A1D30 /* Denver Tour */,
+				E59F1AF11ACE0450000A1D30 /* Denver TourTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E59F1AD91ACE0450000A1D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59F1AE81ACE0450000A1D30 /* Main.storyboard in Resources */,
+				E59F1AED1ACE0450000A1D30 /* LaunchScreen.xib in Resources */,
+				E59F1AEA1ACE0450000A1D30 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59F1AF01ACE0450000A1D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E59F1AD71ACE0450000A1D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59F1AE51ACE0450000A1D30 /* DetailViewController.swift in Sources */,
+				E59F1AE31ACE0450000A1D30 /* MasterViewController.swift in Sources */,
+				E59F1AE11ACE0450000A1D30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59F1AEE1ACE0450000A1D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59F1AF91ACE0450000A1D30 /* Denver_TourTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E59F1AF41ACE0450000A1D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E59F1ADA1ACE0450000A1D30 /* Denver Tour */;
+			targetProxy = E59F1AF31ACE0450000A1D30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E59F1AE61ACE0450000A1D30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E59F1AE71ACE0450000A1D30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E59F1AEB1ACE0450000A1D30 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E59F1AEC1ACE0450000A1D30 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E59F1AFA1ACE0450000A1D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E59F1AFB1ACE0450000A1D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E59F1AFD1ACE0450000A1D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Denver Tour/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E59F1AFE1ACE0450000A1D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Denver Tour/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E59F1B001ACE0450000A1D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Denver TourTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Denver Tour.app/Denver Tour";
+			};
+			name = Debug;
+		};
+		E59F1B011ACE0450000A1D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Denver TourTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Denver Tour.app/Denver Tour";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E59F1AD61ACE0450000A1D30 /* Build configuration list for PBXProject "Denver Tour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59F1AFA1ACE0450000A1D30 /* Debug */,
+				E59F1AFB1ACE0450000A1D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E59F1AFC1ACE0450000A1D30 /* Build configuration list for PBXNativeTarget "Denver Tour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59F1AFD1ACE0450000A1D30 /* Debug */,
+				E59F1AFE1ACE0450000A1D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E59F1AFF1ACE0450000A1D30 /* Build configuration list for PBXNativeTarget "Denver TourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59F1B001ACE0450000A1D30 /* Debug */,
+				E59F1B011ACE0450000A1D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E59F1AD31ACE0450000A1D30 /* Project object */;
+}
