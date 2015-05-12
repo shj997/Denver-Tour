@@ -14,6 +14,7 @@
 		E59F1AEA1ACE0450000A1D30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59F1AE91ACE0450000A1D30 /* Images.xcassets */; };
 		E59F1AED1ACE0450000A1D30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E59F1AEB1ACE0450000A1D30 /* LaunchScreen.xib */; };
 		E59F1AF91ACE0450000A1D30 /* Denver_TourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59F1AF81ACE0450000A1D30 /* Denver_TourTests.swift */; };
+		E59F1B031ACE049B000A1D30 /* Mywhatsit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59F1B021ACE049B000A1D30 /* Mywhatsit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		E59F1AF21ACE0450000A1D30 /* Denver TourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Denver TourTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59F1AF71ACE0450000A1D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E59F1AF81ACE0450000A1D30 /* Denver_TourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Denver_TourTests.swift; sourceTree = "<group>"; };
+		E59F1B021ACE049B000A1D30 /* Mywhatsit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mywhatsit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				E59F1AE01ACE0450000A1D30 /* AppDelegate.swift */,
 				E59F1AE21ACE0450000A1D30 /* MasterViewController.swift */,
 				E59F1AE41ACE0450000A1D30 /* DetailViewController.swift */,
+				E59F1B021ACE049B000A1D30 /* Mywhatsit.swift */,
 				E59F1AE61ACE0450000A1D30 /* Main.storyboard */,
 				E59F1AE91ACE0450000A1D30 /* Images.xcassets */,
 				E59F1AEB1ACE0450000A1D30 /* LaunchScreen.xib */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E59F1B031ACE049B000A1D30 /* Mywhatsit.swift in Sources */,
 				E59F1AE51ACE0450000A1D30 /* DetailViewController.swift in Sources */,
 				E59F1AE31ACE0450000A1D30 /* MasterViewController.swift in Sources */,
 				E59F1AE11ACE0450000A1D30 /* AppDelegate.swift in Sources */,
